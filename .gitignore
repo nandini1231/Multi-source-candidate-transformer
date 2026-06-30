@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+.DS_Store
+
+# Generated at runtime — do not commit
+output/
+TEST_RESULTS.md
+test_results.json
+
+# Sample outputs: commit only curated demo artifacts
+data/sample_outputs/*
+!data/sample_outputs/default.json
+!data/sample_outputs/nandini_test.json
+
+data/versions/
