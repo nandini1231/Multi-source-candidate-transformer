@@ -1,0 +1,13 @@
+{
+  "summary": {"total": 2, "active": 2, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {"full_name": "Aakash Verma", "primary_email": "aakash.verma@example.com", "phone": "+919811112222", "status": "active"},
+    {"full_name": "Priti Joshi",  "primary_email": "priti.joshi@example.com",  "phone": "+919833334444", "status": "active"}
+  ],
+  "expected_match_score_range": "0.0 between the two records → SEPARATE",
+  "expected_decision_trace": [
+    "No email overlap, no phone overlap, no name+company similarity → SEPARATE decision",
+    "Two independent profiles produced"
+  ],
+  "expected_status": "AUTO_APPROVED (both)"
+}

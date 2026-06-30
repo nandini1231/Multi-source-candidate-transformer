@@ -1,0 +1,10 @@
+Anil Kumar
+anil.kumar.dev@gmail.com | +91 98989 89898
+Pune, India
+
+EXPERIENCE
+DevOps Engineer
+Acme Corp | May 2020 - Present
+
+SKILLS
+Terraform, Kubernetes, AWS, CI/CD

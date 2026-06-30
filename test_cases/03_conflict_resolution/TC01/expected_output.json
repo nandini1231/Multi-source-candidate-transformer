@@ -1,0 +1,12 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {"full_name": "Sanjay Rao", "primary_email": "sanjay.rao@example.com", "status": "active"}
+  ],
+  "expected_conflict_log": [
+    {"field": "full_name", "severity": "MEDIUM", "selected": "Sanjay Rao",
+     "reason": "Higher source priority",
+     "explanation": "recruiter_csv (100) over resume (70)"}
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

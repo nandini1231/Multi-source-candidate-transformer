@@ -1,0 +1,15 @@
+{
+  "summary": {"total": "1 or 2 (deterministic per config)", "active": "0 or 1", "manual_review": "1 or 0", "errors": 0},
+  "expected_match_keys_used": ["name_company"],
+  "expected_decision_trace": [
+    "No email overlap (different domains and local parts)",
+    "No phone overlap (different numbers)",
+    "Name fuzzy match: 'Karan Malhotra' vs 'Karan M.' — token_set_ratio borderline",
+    "Company match: 'Acme Corp' vs 'Acme Corp' = 1.0",
+    "Combined score sits near (threshold − margin) → MANUAL_REVIEW trigger NEAR_THRESHOLD_MATCH"
+  ],
+  "expected_review_reasons": [
+    "Match score X.XXX is near threshold 0.75 (margin ±0.05)"
+  ],
+  "expected_status": "MANUAL_REVIEW (if score within margin) or SEPARATE (if score below margin)"
+}

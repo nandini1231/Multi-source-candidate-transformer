@@ -1,0 +1,12 @@
+(Two identical resumes named resume_v1.pdf and resume_v2.pdf, same content:)
+
+Manish Gupta
+manish.gupta@example.com | +91 98000 11122
+Pune, India
+
+EXPERIENCE
+Software Engineer
+Acme Corp | Jan 2022 - Present
+
+SKILLS
+Python, Django, Redis

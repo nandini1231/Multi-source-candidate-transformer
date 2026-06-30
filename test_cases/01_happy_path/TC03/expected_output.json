@@ -1,0 +1,38 @@
+{
+  "summary": {"total": 3, "active": 3, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Diya Kapoor",
+      "primary_email": "diya.kapoor@example.com",
+      "phone": "+918812345670",
+      "location": {"city": "Hyderabad", "region": null, "country": null},
+      "headline": "Data Engineer",
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": "Rohan Iyer",
+      "primary_email": "rohan.iyer@example.com",
+      "phone": "+919900112233",
+      "location": {"city": "Chennai", "region": null, "country": null},
+      "headline": "QA Lead",
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": "Sara Khan",
+      "primary_email": "sara.khan@example.com",
+      "phone": "+447911123456",
+      "location": {"city": "London", "region": null, "country": "GB"},
+      "headline": "Frontend Engineer",
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    }
+  ],
+  "expected_status": "AUTO_APPROVED",
+  "expected_conflict_log": [],
+  "expected_validation_log": "0 rejections across 3 records"
+}

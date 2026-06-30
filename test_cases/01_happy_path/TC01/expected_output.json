@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "total": 1,
+    "active": 1,
+    "manual_review": 0,
+    "errors": 0
+  },
+  "candidates": [
+    {
+      "full_name": "Priya Sharma",
+      "primary_email": "priya.sharma@example.com",
+      "phone": "+919876512340",
+      "skills": null,
+      "location": {
+        "city": "Pune",
+        "region": "Maharashtra",
+        "country": "IN"
+      },
+      "headline": "Backend Engineer",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    }
+  ],
+  "expected_confidence_explanation": "Base weight (recruiter_csv): 0.95 × extraction_certainty (direct): 1.0 × severity (LOW): 1.0 × agreement (single_source): 0.95 = ~0.9025 per field; averaged across present scalar fields ≈ 0.95.",
+  "expected_provenance": [
+    {"field": "full_name",  "source": "recruiter_csv", "method": "direct"},
+    {"field": "emails",     "source": "recruiter_csv", "method": "direct"},
+    {"field": "phones",     "source": "recruiter_csv", "method": "direct"}
+  ],
+  "expected_conflict_log": [],
+  "expected_validation_log": "0 rejections; email + phone valid.",
+  "expected_decision_trace": [
+    "full_name: SINGLE_SOURCE (only recruiter_csv)",
+    "emails:    UNION_DEDUPE",
+    "phones:    UNION_DEDUPE — normalised to E.164"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

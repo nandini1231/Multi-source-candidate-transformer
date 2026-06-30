@@ -1,0 +1,29 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Vikram Singh",
+      "primary_email": "vikram.singh@example.com",
+      "phone": "+919988776655",
+      "skills": ["JavaScript", "TypeScript", "React", "Node.js", "NoSQL", "Docker"],
+      "location": {"city": "Delhi", "region": null, "country": "IN"},
+      "headline": "Full-stack engineer with 4 years of experience in React and Node.",
+      "experience": [
+        {"company": "TechCorp",   "title": "Software Engineer", "start": "2021-03", "end": null},
+        {"company": "StartupXYZ", "title": "Junior Developer",  "start": "2019-08", "end": "2021-02"}
+      ],
+      "education": [
+        {"institution": "Delhi University", "degree": "Master of Computer Applications", "end_year": "2019"}
+      ],
+      "overall_confidence": 0.65,
+      "data_quality_score": 1.0,
+      "status": "active"
+    }
+  ],
+  "expected_status": "AUTO_APPROVED",
+  "expected_conflict_log": [],
+  "expected_decision_trace": [
+    "Single source (resume) — every field uses base weight 0.70 × extraction certainty.",
+    "Confidence lower than CSV because extraction_method is heuristic/regex (not direct)."
+  ]
+}

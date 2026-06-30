@@ -1,0 +1,17 @@
+Arjun Mehta
+arjun.mehta@example.com | +91 98123 45678 | Bangalore, India
+LinkedIn: linkedin.com/in/arjunmehta
+SUMMARY
+Senior backend engineer with 6+ years building scalable microservices.
+EXPERIENCE
+Senior Software Engineer
+Globex Inc | Jan 2020 - Present
+Led migration of monolith to Kubernetes-based microservices.
+Software Engineer
+Acme Corp | Jun 2018 - Dec 2019
+Built REST APIs in Python and Go.
+SKILLS
+Python, Go, Kubernetes, Docker, PostgreSQL, ReactJS, AWS
+EDUCATION
+Bachelor of Technology - Computer Science
+IIT Bombay | 2018

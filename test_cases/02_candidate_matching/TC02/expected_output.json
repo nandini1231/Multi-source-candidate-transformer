@@ -1,0 +1,22 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Anil Kumar",
+      "primary_email": "anil.kumar@workmail.com",
+      "phone": "+919898989898",
+      "skills": ["Terraform", "Kubernetes", "AWS", "CI/CD"],
+      "headline": "DevOps Engineer",
+      "status": "active"
+    }
+  ],
+  "expected_match_keys_used": ["phone", "name_company"],
+  "expected_emails_union": ["anil.kumar@workmail.com", "anil.kumar.dev@gmail.com"],
+  "expected_conflict_log": [],
+  "expected_decision_trace": [
+    "Matched using Phone (E.164 normalised)",
+    "Two different emails — union retained (no conflict, both kept)",
+    "Name + company also agree, boosting match score"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

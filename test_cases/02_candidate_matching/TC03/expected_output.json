@@ -1,0 +1,27 @@
+{
+  "summary": {"total": 2, "active": 2, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Sneha Patel",
+      "primary_email": "sneha.patel@example.com",
+      "phone": "+919876543201",
+      "status": "active"
+    },
+    {
+      "full_name": "Sneha S Patel",
+      "primary_email": "sneha.s.patel@personal.com",
+      "phone": "+919000011111",
+      "skills": ["Python", "Django", "SQL"],
+      "status": "active"
+    }
+  ],
+  "expected_match_keys_used": ["name_company"],
+  "expected_match_score": 0.35,
+  "expected_decision_trace": [
+    "No email overlap, no phone overlap",
+    "Fuzzy name match: 'Sneha Patel' ↔ 'Sneha S Patel' → token_set_ratio ≥ 85",
+    "Company normalised: 'Wipro' ↔ 'Wipro Limited' (suffix stripped) → match",
+    "name+company raw score 0.70 × weight 0.5 = 0.35 < threshold 0.75 → SEPARATE (two profiles)"
+  ],
+  "expected_status": "AUTO_APPROVED (both profiles, no merge)"
+}

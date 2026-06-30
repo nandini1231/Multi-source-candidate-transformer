@@ -1,0 +1,22 @@
+Neha Reddy
+neha.reddy@example.com | +91 98765 43200
+Hyderabad, India
+LinkedIn: linkedin.com/in/neha-reddy | GitHub: github.com/neha-reddy
+
+SUMMARY
+Principal engineer specializing in distributed systems and cloud architecture.
+
+EXPERIENCE
+Principal Engineer
+Microsoft India | Aug 2021 - Present
+Architecting Azure-native data platforms serving 50M+ users.
+
+Staff Engineer
+Amazon | Jul 2018 - Jul 2021
+
+SKILLS
+Python, Java, Scala, AWS, Azure, Kubernetes, Kafka, Spark, ElasticSearch, ML
+
+EDUCATION
+Master of Science - Computer Science
+Stanford University | 2017

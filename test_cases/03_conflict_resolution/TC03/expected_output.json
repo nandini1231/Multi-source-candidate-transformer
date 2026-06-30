@@ -1,0 +1,13 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {"phone": "+919876543210", "primary_email": "riya.shah@example.com", "status": "active"}
+  ],
+  "expected_conflict_log": [],
+  "expected_decision_trace": [
+    "Phone '9876543210' (CSV) and '+91-9876-543-210' (resume) both normalise to +919876543210",
+    "SeverityClassifier.classify_phone returns LOW (E.164 match) → no conflict",
+    "Single phone entry in output"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

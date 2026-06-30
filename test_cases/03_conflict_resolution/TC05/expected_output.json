@@ -1,0 +1,21 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Megha Bose",
+      "headline": "Senior Engineer",
+      "experience": [
+        {"company": "Globex",   "title": "Senior Engineer",          "start": "2021-04", "end": null},
+        {"company": "Globex",   "title": "Engineer",                  "start": "2019-04", "end": "2021-03"},
+        {"company": "Internity","title": "Software Engineer Intern",  "start": "2018-06", "end": "2018-08"}
+      ],
+      "status": "active"
+    }
+  ],
+  "expected_decision_trace": [
+    "CSV current_company='Globex' + title='Senior Engineer' agrees with resume's latest entry — no conflict",
+    "Resume contributes 3 experience entries; merged by (company, title, start) key",
+    "All dates normalised to YYYY-MM"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

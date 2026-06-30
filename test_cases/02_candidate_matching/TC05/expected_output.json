@@ -1,0 +1,19 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Manish Gupta",
+      "primary_email": "manish.gupta@example.com",
+      "phone": "+919800011122",
+      "skills": ["Python", "Django", "Redis"],
+      "status": "active"
+    }
+  ],
+  "expected_match_keys_used": ["email", "phone"],
+  "expected_decision_trace": [
+    "Two resume parses both extract the same email → MERGE (score 1.0)",
+    "Union dedupe: emails reduced to one, phones reduced to one E.164",
+    "Skills deduped via canonical mapping"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

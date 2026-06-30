@@ -1,0 +1,33 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Robert James",
+      "primary_email": "robert.james@example.com",
+      "phone": "+919812345600",
+      "skills": ["Java", "Spring", "Microservices", "AWS"],
+      "headline": "Engineering Manager",
+      "overall_confidence": 0.85,
+      "status": "active"
+    }
+  ],
+  "expected_match_keys_used": ["email"],
+  "expected_conflict_log": [
+    {
+      "field": "full_name",
+      "severity": "MEDIUM",
+      "values": [
+        {"value": "Robert James", "source": "recruiter_csv"},
+        {"value": "Bob James",    "source": "resume"}
+      ],
+      "selected": "Robert James",
+      "reason": "Higher source priority"
+    }
+  ],
+  "expected_decision_trace": [
+    "Matched using Email (robert.james@example.com)",
+    "full_name conflict — MEDIUM severity (token overlap on 'James')",
+    "CSV wins (priority 100 > 70)"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

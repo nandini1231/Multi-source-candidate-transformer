@@ -1,0 +1,18 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Aditya Bansal",
+      "primary_email": "aditya@workmail.com",
+      "expected_emails_union": ["aditya@workmail.com", "aditya.bansal@gmail.com"],
+      "phone": "+919898011223",
+      "status": "active"
+    }
+  ],
+  "expected_conflict_log": [
+    {"field": "emails", "severity": "MEDIUM", "selected": ["aditya@workmail.com", "aditya.bansal@gmail.com"],
+     "reason": "Union of emails from all sources",
+     "explanation": "All unique emails retained; duplicates removed"}
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

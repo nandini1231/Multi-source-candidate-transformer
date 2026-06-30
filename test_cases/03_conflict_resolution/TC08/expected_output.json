@@ -1,0 +1,25 @@
+{
+  "summary": {"total": 1, "active": 0, "manual_review": 1, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Rajesh Kumar",
+      "primary_email": "rajesh@example.com",
+      "phone": "+919898981111",
+      "status": "manual_review",
+      "review_reasons": ["Same phone number but completely different name and email"]
+    }
+  ],
+  "expected_conflict_log": [
+    {"field": "full_name", "severity": "HIGH",
+     "values": [{"value": "Rajesh Kumar", "source": "recruiter_csv"},
+                {"value": "Christine Wong", "source": "resume"}],
+     "selected": "Rajesh Kumar"}
+  ],
+  "expected_decision_trace": [
+    "Phone matches → group together",
+    "Email completely different → HIGH severity on emails",
+    "Name 'Rajesh Kumar' vs 'Christine Wong' → zero token overlap → HIGH severity",
+    "ReviewQueue trigger: SAME_PHONE_DIFF_IDENTITY"
+  ],
+  "expected_status": "MANUAL_REVIEW"
+}

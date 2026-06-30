@@ -1,0 +1,20 @@
+Vikram Singh
+vikram.singh@example.com | +91 99887 76655
+Delhi, India
+
+SUMMARY
+Full-stack engineer with 4 years of experience in React and Node.
+
+EXPERIENCE
+Software Engineer
+TechCorp | Mar 2021 - Present
+
+Junior Developer
+StartupXYZ | Aug 2019 - Feb 2021
+
+SKILLS
+JavaScript, TypeScript, React, Node.js, MongoDB, Docker
+
+EDUCATION
+Master of Computer Applications
+Delhi University | 2019

@@ -1,0 +1,19 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Devesh Nair",
+      "education": [
+        {"institution": "IIT Madras",  "degree": "Ph.D",             "end_year": "2024"},
+        {"institution": "IIT Madras",  "degree": "Master of Science","end_year": "2019"},
+        {"institution": "NIT Calicut", "degree": "B.Tech",           "end_year": "2017"}
+      ],
+      "status": "active"
+    }
+  ],
+  "expected_decision_trace": [
+    "Three distinct (institution, degree) keys → no duplicates collapsed",
+    "Same institution (IIT Madras) but different degrees → kept separately"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

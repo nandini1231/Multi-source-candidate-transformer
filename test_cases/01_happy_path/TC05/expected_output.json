@@ -1,0 +1,30 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Neha Reddy",
+      "primary_email": "neha.reddy@example.com",
+      "phone": "+919876543200",
+      "skills": ["Python", "Java", "Scala", "AWS", "Azure", "Kubernetes", "Kafka", "Spark", "Elasticsearch", "Machine Learning"],
+      "location": {"city": "Hyderabad", "region": "Telangana", "country": "IN"},
+      "headline": "Principal Engineer",
+      "experience": [
+        {"company": "Microsoft India", "title": "Principal Engineer", "start": "2021-08", "end": null},
+        {"company": "Amazon",          "title": "Staff Engineer",     "start": "2018-07", "end": "2021-07"}
+      ],
+      "education": [
+        {"institution": "Stanford University", "degree": "Master of Science", "field": "Computer Science", "end_year": "2017"}
+      ],
+      "overall_confidence": 0.7736,
+      "data_quality_score": 1.0,
+      "status": "active"
+    }
+  ],
+  "expected_status": "AUTO_APPROVED",
+  "expected_conflict_log": [],
+  "expected_decision_trace": [
+    "Matched via email",
+    "ML → Machine Learning (canonical)",
+    "ElasticSearch → Elasticsearch (canonical)"
+  ]
+}

@@ -1,0 +1,14 @@
+Bob James
+robert.james@example.com | +91 9812345600
+Bangalore, India
+
+EXPERIENCE
+Engineering Manager
+TechCorp | Feb 2022 - Present
+
+SKILLS
+Java, Spring, Microservices, AWS
+
+EDUCATION
+B.Tech Computer Science
+NIT Trichy | 2015

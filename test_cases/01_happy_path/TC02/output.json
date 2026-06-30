@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "total": 2,
+    "active": 1,
+    "manual_review": 1,
+    "errors": 0
+  },
+  "candidates": [
+    {
+      "full_name": "Arjun Mehta",
+      "primary_email": "arjun.mehta@example.com",
+      "phone": "+919812345678",
+      "skills": null,
+      "location": {
+        "city": "Bangalore",
+        "region": "Karnataka",
+        "country": "IN"
+      },
+      "headline": "Senior Software Engineer",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": null,
+      "primary_email": null,
+      "phone": null,
+      "skills": null,
+      "location": {
+        "city": null,
+        "region": null,
+        "country": null
+      },
+      "headline": null,
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.0,
+      "data_quality_score": 0.0,
+      "status": "manual_review",
+      "review_reasons": [
+        "Overall confidence 0.000 < minimum 0.6"
+      ]
+    }
+  ]
+}

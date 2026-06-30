@@ -1,0 +1,19 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Mohit Bhatt",
+      "primary_email": "mohit.bhatt@example.com",
+      "phone": "+919876512345",
+      "headline": "Senior PM",
+      "location": {"city": "Gurgaon", "region": null, "country": "IN"},
+      "status": "active"
+    }
+  ],
+  "expected_decision_trace": [
+    "CSV is missing phone and location",
+    "Resume fills the gap (GAP_FILL): phone +919876512345, location Gurgaon, IN",
+    "No conflicts logged — gap-fill is not a conflict"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

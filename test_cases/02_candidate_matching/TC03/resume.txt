@@ -1,0 +1,10 @@
+Sneha S Patel
+sneha.s.patel@personal.com | +91 90000 11111
+Mumbai, India
+
+EXPERIENCE
+Software Engineer
+Wipro Limited | Jul 2021 - Present
+
+SKILLS
+Python, Django, PostgreSQL

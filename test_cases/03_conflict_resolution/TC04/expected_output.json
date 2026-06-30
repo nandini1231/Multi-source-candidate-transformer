@@ -1,0 +1,18 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Tina Roy",
+      "skills": ["React", "JavaScript", "Node.js", "Kubernetes"],
+      "status": "active"
+    }
+  ],
+  "expected_decision_trace": [
+    "ReactJS, react.js, React → all canonicalised to 'React' (same canonical name)",
+    "JS, JavaScript, ES6 → 'JavaScript'",
+    "Node.js, NodeJS, node js → 'Node.js'",
+    "K8s, kubernetes → 'Kubernetes'",
+    "FieldResolver.resolve_skills deduped 11 raw skills to 4 canonical entries"
+  ],
+  "expected_status": "AUTO_APPROVED"
+}

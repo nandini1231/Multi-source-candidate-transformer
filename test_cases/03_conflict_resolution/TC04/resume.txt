@@ -1,0 +1,5 @@
+Tina Roy
+tina.roy@example.com | +91 98000 99000
+
+SKILLS
+ReactJS, react.js, React, JS, JavaScript, ES6, Node.js, NodeJS, node js, K8s, kubernetes
