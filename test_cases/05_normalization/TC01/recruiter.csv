@@ -1,0 +1,6 @@
+name,email,phone,current_company,title,linkedin,location
+Phone1,p1@example.com,9876543210,Acme,Engineer,,
+Phone2,p2@example.com,+91-98765-43210,Acme,Engineer,,
+Phone3,p3@example.com,+91 98765 43210,Acme,Engineer,,
+Phone4,p4@example.com,(415) 555-2671,Acme,Engineer,,
+Phone5,p5@example.com,+44 7911 123456,Acme,Engineer,,

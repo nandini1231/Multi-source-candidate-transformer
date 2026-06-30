@@ -1,0 +1,13 @@
+{
+  "candidates": [{
+    "skills": ["Go", "React", "JavaScript", "Kubernetes", "NoSQL", "AWS"]
+  }],
+  "expected_normalizations": [
+    "golang/go lang/GO → Go",
+    "ReactJS/react.js/React → React",
+    "JS/ECMAScript → JavaScript",
+    "K8s/kubernetes → Kubernetes",
+    "MongoDB/mongo → NoSQL",
+    "amazon web services → AWS"
+  ]
+}

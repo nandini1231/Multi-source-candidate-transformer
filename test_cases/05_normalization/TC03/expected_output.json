@@ -1,0 +1,16 @@
+{
+  "expected_country_codes": {
+    "India":  "IN",
+    "USA":    "US",
+    "UK":     "GB",
+    "Japan":  "JP",
+    "France": "FR"
+  },
+  "candidates": [
+    {"location": {"country": "IN"}},
+    {"location": {"country": "US"}},
+    {"location": {"country": "GB"}},
+    {"location": {"country": "JP"}},
+    {"location": {"country": "FR"}}
+  ]
+}

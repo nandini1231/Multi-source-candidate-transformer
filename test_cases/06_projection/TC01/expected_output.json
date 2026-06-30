@@ -1,0 +1,7 @@
+{
+  "summary": {"total": 1, "active": 1},
+  "candidates": [
+    {"full_name": "Test User", "primary_email": "test.user@example.com", "phone": "+919812345670"}
+  ],
+  "expected_excluded_keys": ["skills", "location", "headline", "overall_confidence", "data_quality_score", "status"]
+}

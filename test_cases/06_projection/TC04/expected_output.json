@@ -1,0 +1,12 @@
+{
+  "expected_decision_trace": [
+    "full_name is null AND required=true AND on_missing=error",
+    "Projector raises ProjectionError",
+    "Pipeline catches → output entry contains {candidate_id, error: '...'}"
+  ],
+  "candidates": [
+    {
+      "error": "Required field 'full_name' is missing and on_missing='error'"
+    }
+  ]
+}

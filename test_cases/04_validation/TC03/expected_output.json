@@ -1,0 +1,17 @@
+{
+  "summary": {
+    "total": 1,
+    "active": 1,
+    "validation_failures": 1,
+    "validation_rejections": [
+      {
+        "field": "email",
+        "reason_code": "INVALID_EMAIL_FORMAT",
+        "reason": "Email exceeds 254 characters"
+      }
+    ]
+  },
+  "candidates": [
+    {"full_name": "Long Email", "primary_email": null, "phone": "+919812345670"}
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "total": 1,
+    "active": 1,
+    "validation_failures": 1,
+    "errors": 0,
+    "validation_rejections": [
+      {
+        "field": "phone",
+        "reason_code": "INVALID_PHONE",
+        "reason": "Phone number could not be parsed to E.164",
+        "raw_value": "call-me-anytime"
+      }
+    ]
+  },
+  "candidates": [
+    {"full_name": "Vivek Anand", "phone": null, "primary_email": "vivek.anand@example.com", "status": "active"}
+  ]
+}

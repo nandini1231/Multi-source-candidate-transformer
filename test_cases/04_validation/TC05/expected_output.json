@@ -1,0 +1,13 @@
+{
+  "summary": {
+    "validation_failures": 1,
+    "validation_rejections": [
+      {
+        "field": "email",
+        "reason_code": "INVALID_EMAIL_FORMAT",
+        "reason": "Email contains spaces",
+        "raw_value": "john doe@example.com"
+      }
+    ]
+  }
+}

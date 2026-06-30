@@ -1,0 +1,5 @@
+Skills Test
+skills@example.com | +91 98123 45670
+
+SKILLS
+golang, go lang, GO, ReactJS, react.js, React, JS, ECMAScript, K8s, kubernetes, MongoDB, mongo, AWS, amazon web services

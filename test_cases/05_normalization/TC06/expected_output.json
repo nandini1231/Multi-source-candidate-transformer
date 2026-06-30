@@ -1,0 +1,4 @@
+{
+  "candidates": [{"full_name": "Tarun Khanna"}],
+  "expected_decision_trace": ["Leading/trailing whitespace stripped; internal double-spaces collapsed by normalize_name_key for matching"]
+}

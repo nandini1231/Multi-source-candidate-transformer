@@ -1,0 +1,9 @@
+{
+  "expected_keys_in_output": [
+    "candidate_id", "status", "full_name", "emails", "phones", "location",
+    "headline", "years_experience", "links", "skills", "experience", "education",
+    "overall_confidence", "data_quality_score",
+    "confidence_details", "provenance", "conflict_log"
+  ],
+  "expected_decision_trace": ["include_confidence_explanation, include_provenance, include_conflict_log all true → audit fields injected"]
+}

@@ -1,0 +1,5 @@
+{
+  "candidates": [{"full_name": "Sparse"}],
+  "expected_excluded_keys": ["phone", "headline", "skills"],
+  "expected_decision_trace": ["on_missing=omit → null/empty fields excluded from output object"]
+}

@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "total": 1,
+    "active": 1,
+    "validation_failures": 2,
+    "validation_rejections": [
+      {
+        "field": "email",
+        "reason_code": "INVALID_EMAIL_FORMAT",
+        "reason": "Email does not match expected pattern",
+        "raw_value": "not-email"
+      },
+      {
+        "field": "phone",
+        "reason_code": "INVALID_PHONE",
+        "reason": "Phone number could not be parsed to E.164",
+        "raw_value": "123"
+      }
+    ]
+  },
+  "candidates": [{
+    "full_name": "Bad Data",
+    "primary_email": null,
+    "phone": null,
+    "headline": "Engineer",
+    "data_quality_score": 0.3667,
+    "status": "active"
+  }]
+}

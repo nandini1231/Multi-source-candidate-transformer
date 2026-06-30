@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "validation_failures": 1,
+    "validation_rejections": [
+      {
+        "field": "experience.start",
+        "reason_code": "INVALID_DATE",
+        "reason": "Year 1820 out of range [1950, 2030]",
+        "raw_value": "1820"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "full_name": "Year Mismatch",
+      "experience": []
+    }
+  ]
+}

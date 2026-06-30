@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "validation_failures": 0,
+    "validation_rejections": []
+  },
+  "candidates": [
+    {"primary_email": "mixed.case@example.com", "status": "active"}
+  ],
+  "expected_decision_trace": [
+    "Email lowercased in normalization pass, then accepted by validator"
+  ]
+}

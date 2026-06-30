@@ -1,0 +1,9 @@
+{
+  "fields": [
+    {"path": "full_name", "type": "string"},
+    {"path": "phone",     "from": "phones[0]", "type": "string"},
+    {"path": "headline",  "type": "string"},
+    {"path": "skills",    "from": "skills[].name", "type": "string[]"}
+  ],
+  "on_missing": "omit"
+}

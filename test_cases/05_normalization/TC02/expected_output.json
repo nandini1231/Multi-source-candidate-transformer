@@ -1,0 +1,6 @@
+{
+  "candidates": [
+    {"primary_email": "aaron.smith@example.com"},
+    {"primary_email": "bob@test.io"}
+  ]
+}

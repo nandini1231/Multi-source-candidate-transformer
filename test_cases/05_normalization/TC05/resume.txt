@@ -1,0 +1,15 @@
+Date Test
+date@example.com | +91 98123 45670
+
+EXPERIENCE
+Engineer
+Acme | Jan 2020 - Dec 2021
+
+Engineer
+StartupA | January 2018 - 12/2019
+
+Engineer
+StartupB | 2016-03 - 2017/08
+
+Engineer
+StartupC | 2014 - Present

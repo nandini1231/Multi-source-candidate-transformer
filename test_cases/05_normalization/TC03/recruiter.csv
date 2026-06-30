@@ -1,0 +1,6 @@
+name,email,phone,current_company,title,linkedin,location
+A,a@example.com,+919812345670,Acme,Engineer,,"Mumbai, India"
+B,b@example.com,+14155552671,Acme,Engineer,,"New York, USA"
+C,c@example.com,+447911123456,Acme,Engineer,,"London, UK"
+D,d@example.com,+819012345678,Acme,Engineer,,"Tokyo, Japan"
+E,e@example.com,+33612345678,Acme,Engineer,,"Paris, France"

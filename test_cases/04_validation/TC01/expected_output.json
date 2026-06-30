@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total": 1,
+    "active": 1,
+    "manual_review": 0,
+    "errors": 0,
+    "validation_failures": 1,
+    "validation_rejections": [
+      {
+        "field": "email",
+        "reason_code": "INVALID_EMAIL_FORMAT",
+        "reason": "Email does not match expected pattern",
+        "raw_value": "not-an-email"
+      }
+    ]
+  },
+  "candidates": [
+    {"full_name": "Anita Sen", "primary_email": null, "phone": "+919812345670", "status": "active"}
+  ],
+  "expected_status": "AUTO_APPROVED (invalid email dropped, profile built from remaining fields)"
+}

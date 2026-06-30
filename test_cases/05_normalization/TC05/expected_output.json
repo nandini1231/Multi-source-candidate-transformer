@@ -1,0 +1,12 @@
+{
+  "expected_date_normalizations": [
+    {"raw": "Jan 2020",     "normalized": "2020-01"},
+    {"raw": "December 2021","normalized": "2021-12"},
+    {"raw": "January 2018", "normalized": "2018-01"},
+    {"raw": "12/2019",      "normalized": "2019-12"},
+    {"raw": "2016-03",      "normalized": "2016-03"},
+    {"raw": "2017/08",      "normalized": "2017-08"},
+    {"raw": "2014",         "normalized": "2014-01"},
+    {"raw": "Present",      "normalized": null}
+  ]
+}
