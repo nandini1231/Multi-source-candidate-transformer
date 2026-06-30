@@ -1,0 +1,5 @@
+{
+  "summary": {"total": 1, "active": 1, "errors": 0},
+  "candidates": [{"full_name": "Dupe Row", "primary_email": "dupe@example.com"}],
+  "expected_decision_trace": ["All 3 rows match on email+phone → grouped into one profile; no conflicts (identical values)"]
+}

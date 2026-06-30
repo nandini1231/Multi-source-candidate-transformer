@@ -1,0 +1,9 @@
+Self Taught
+self.taught@example.com | +91 99999 88888
+
+EXPERIENCE
+Software Engineer
+StartupZ | 2018 - Present
+
+SKILLS
+Python, Django, Postgres

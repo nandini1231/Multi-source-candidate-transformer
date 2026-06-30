@@ -1,0 +1,4 @@
+(SIMULATED CORRUPT PDF — to reproduce, create a file named corrupt.pdf containing random bytes:
+ echo 'this is not a real pdf' > corrupt.pdf
+ then pass --resume corrupt.pdf
+)

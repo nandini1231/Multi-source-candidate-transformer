@@ -1,0 +1,9 @@
+{
+  "summary": {"total": 3, "active": 3},
+  "candidates": [
+    {"full_name": "François Müller", "primary_email": "francois.mueller@example.com", "phone": "+33612345678", "location": {"country": "FR"}},
+    {"full_name": "李明",             "primary_email": "liming@example.com",            "phone": "+8613812345678","location": {"country": "CN"}},
+    {"full_name": "日本 太郎",        "primary_email": "nihon.taro@example.com",        "phone": "+819012345678", "location": {"country": "JP"}}
+  ],
+  "expected_decision_trace": ["UTF-8 names preserved; no mojibake; international phones normalised correctly"]
+}

@@ -1,0 +1,4 @@
+{
+  "expected_behavior": "main.py exits with code 1 BEFORE invoking pipeline",
+  "expected_stderr_or_stdout": "Error — the following paths could not be found:\n  ✗  Recruiter CSV not found: /path/to/missing.csv"
+}

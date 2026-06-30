@@ -1,0 +1,6 @@
+{
+  "candidates": [{
+    "skills": ["Python", "Django", "AWS"]
+  }],
+  "expected_decision_trace": ["Case-insensitive canonicalisation collapsed 10 raw skills to 3 canonical entries"]
+}

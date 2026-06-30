@@ -1,0 +1,14 @@
+{
+  "summary": {"total": 1, "active": 1, "errors": 0},
+  "candidates": [{
+    "full_name": null,
+    "primary_email": null,
+    "phone": null,
+    "data_quality_score": "very low"
+  }],
+  "expected_warnings": [
+    "Unrecognised column: 'candidate_full_name' — ignored",
+    "Unrecognised column: 'contact_email' — ignored",
+    "Unrecognised column: 'mobile_no' — ignored"
+  ]
+}

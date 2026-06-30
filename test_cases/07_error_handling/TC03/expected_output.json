@@ -1,0 +1,5 @@
+{
+  "summary": {"total": 0, "active": 0, "errors": 0},
+  "candidates": [],
+  "expected_decision_trace": ["Headers parsed but zero data rows → empty record list"]
+}

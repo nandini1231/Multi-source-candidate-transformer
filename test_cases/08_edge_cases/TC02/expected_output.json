@@ -1,0 +1,7 @@
+{
+  "candidates": [{
+    "full_name": "Multi Email",
+    "primary_email": "work@example.com",
+    "expected_emails_union": ["work@example.com", "personal@gmail.com", "freelance@upwork.com"]
+  }]
+}

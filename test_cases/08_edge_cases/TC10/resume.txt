@@ -1,0 +1,5 @@
+Dup Skills
+dup.skills@example.com | +91 98123 45670
+
+SKILLS
+Python, python, PYTHON, Python, Django, django, Django, AWS, aws, AWS

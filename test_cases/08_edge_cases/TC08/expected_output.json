@@ -1,0 +1,13 @@
+{
+  "candidates": [{
+    "full_name": "Whitespace Madness",
+    "primary_email": "whitespace.madness@example.com",
+    "phone": "+919812345670",
+    "skills": ["Python", "Django", "SQL", "Redis"]
+  }],
+  "expected_decision_trace": [
+    "Lines stripped + collapsed (\\s+ → single space)",
+    "Comma-separated skill list parsed with .strip()",
+    "Date phrases survive whitespace garbage"
+  ]
+}

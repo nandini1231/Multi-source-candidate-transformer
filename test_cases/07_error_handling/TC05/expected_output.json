@@ -1,0 +1,14 @@
+{
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [{
+    "full_name": null,
+    "primary_email": null,
+    "phone": null,
+    "status": "active"
+  }],
+  "expected_decision_trace": [
+    "ResumeAdapter.parse catches exception → returns single SourceRecord with parse_errors populated",
+    "BaseAdapter.safe_parse outer try/except is the safety net",
+    "Pipeline continues without crashing"
+  ]
+}

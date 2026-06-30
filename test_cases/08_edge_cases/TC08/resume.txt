@@ -1,0 +1,22 @@
+       Whitespace      Madness
+
+
+whitespace.madness@example.com        |        +91   98123   45670
+
+
+Mumbai,                  India
+
+
+
+EXPERIENCE
+
+
+            Engineer
+            Acme              |             Jan       2022          -        Present
+
+
+
+SKILLS
+
+
+           Python   ,   Django  ,  Postgres  ,   Redis

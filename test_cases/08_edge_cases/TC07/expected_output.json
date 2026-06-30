@@ -1,0 +1,4 @@
+{
+  "candidates": [{"full_name": "Self Taught", "education": null}],
+  "expected_decision_trace": ["Education absent; no exception; profile produced"]
+}

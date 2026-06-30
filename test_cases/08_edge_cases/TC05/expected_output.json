@@ -1,0 +1,12 @@
+{
+  "summary": {"total": 1, "active": 1, "errors": 0},
+  "candidates": [{
+    "full_name": "Verbose Veteran",
+    "primary_email": "verbose.veteran@example.com",
+    "phone": "+919812345670",
+    "expected_skills_count_range": "<=120 (depends on canonical collapse)",
+    "expected_experience_count_range": "30",
+    "status": "active"
+  }],
+  "expected_decision_trace": ["Resume adapter handles large inputs without performance degradation or truncation"]
+}

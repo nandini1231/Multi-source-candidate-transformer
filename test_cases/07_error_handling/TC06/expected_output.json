@@ -1,0 +1,4 @@
+{
+  "expected_behavior": "If no flags provided AND default resume_dir+csv don't exist either, pipeline returns empty PipelineOutput",
+  "summary": {"total": 0}
+}

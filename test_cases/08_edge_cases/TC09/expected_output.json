@@ -1,0 +1,11 @@
+{
+  "candidates": [{
+    "full_name": "Contact Only",
+    "primary_email": "contact.only@example.com",
+    "phone": "+919812345670",
+    "skills": null,
+    "experience": null,
+    "education": null,
+    "data_quality_score": "<0.6"
+  }]
+}
