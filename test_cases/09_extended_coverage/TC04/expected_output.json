@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "total": 2,
+    "active": 2,
+    "manual_review": 0,
+    "errors": 0
+  },
+  "candidates": [
+    {
+      "full_name": "Alice Batch",
+      "primary_email": "alice.batch@example.com"
+    },
+    {
+      "full_name": "Bob Batch",
+      "primary_email": "bob.batch@example.com"
+    }
+  ]
+}

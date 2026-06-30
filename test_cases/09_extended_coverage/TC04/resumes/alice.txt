@@ -1,0 +1,6 @@
+Alice Batch
+alice.batch@example.com | +91 98111 11111
+Pune, India
+
+SKILLS
+Python, Flask

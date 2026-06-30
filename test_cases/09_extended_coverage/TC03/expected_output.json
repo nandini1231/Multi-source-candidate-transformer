@@ -1,0 +1,22 @@
+{
+  "expected_keys_in_output": [
+    "candidate_id", "status", "full_name", "emails", "phones", "location",
+    "headline", "years_experience", "links", "skills", "experience", "education",
+    "overall_confidence", "data_quality_score",
+    "confidence_details", "provenance", "conflict_log"
+  ],
+  "assert_non_empty_in_candidate": ["provenance", "conflict_log"],
+  "candidates": [
+    {
+      "full_name": "Sanjay Rao",
+      "status": "active",
+      "conflict_log": [
+        {
+          "field": "full_name",
+          "severity": "MEDIUM",
+          "selected": "Sanjay Rao"
+        }
+      ]
+    }
+  ]
+}

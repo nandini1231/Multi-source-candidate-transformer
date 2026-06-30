@@ -1,0 +1,7 @@
+{
+  "_note": "Relaxed date bounds — same resume as 04_validation/TC06 rejects under default config.",
+  "validation": {
+    "date_min_year": 1800,
+    "date_max_year": 2030
+  }
+}

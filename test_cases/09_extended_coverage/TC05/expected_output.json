@@ -1,0 +1,28 @@
+{
+  "resume_format": "docx",
+  "summary": {"total": 1, "active": 1, "manual_review": 0, "errors": 0},
+  "candidates": [
+    {
+      "full_name": "Arjun Mehta",
+      "primary_email": "arjun.mehta@example.com",
+      "phone": "+919812345678",
+      "skills": ["Python", "Go", "Kubernetes", "Docker", "SQL", "React", "AWS"],
+      "location": {"city": "Bangalore", "region": "Karnataka", "country": "IN"},
+      "headline": "Senior Software Engineer",
+      "experience": [
+        {"company": "Globex Inc", "title": "Senior Software Engineer", "start": "2020-01", "end": null},
+        {"company": "Acme Corp", "title": "Software Engineer", "start": "2018-06", "end": "2019-12"}
+      ],
+      "education": [
+        {"institution": "IIT Bombay", "degree": "Bachelor of Technology", "field": "Computer Science", "end_year": "2018"}
+      ],
+      "overall_confidence": 0.7736,
+      "data_quality_score": 1.0,
+      "status": "active"
+    }
+  ],
+  "expected_decision_trace": [
+    "Resume ingested from .docx via python-docx paragraph extraction",
+    "Same parse path as PDF after text extraction — email match merges CSV + resume"
+  ]
+}

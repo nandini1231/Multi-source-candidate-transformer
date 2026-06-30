@@ -1,0 +1,19 @@
+{
+  "summary": {
+    "validation_failures": 0,
+    "validation_rejections": []
+  },
+  "candidates": [
+    {
+      "full_name": "Year Mismatch",
+      "experience": [
+        {
+          "company": "Acme",
+          "title": "Engineer",
+          "start": "1820-01",
+          "end": "1825-01"
+        }
+      ]
+    }
+  ]
+}
