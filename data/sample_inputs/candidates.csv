@@ -1,0 +1,5 @@
+name,email,phone,current_company,title,linkedin,location
+Jane Doe,jane.doe@example.com,9876543210,Acme Corp,Software Engineer,https://linkedin.com/in/janedoe,"Bangalore, Karnataka, India"
+John Smith,john.smith@example.com,+14155552671,Globex Inc,Senior Data Scientist,,"San Francisco, CA, USA"
+Alice Johnson,alice.j@example.com,,Initech,Product Manager,,
+Bob Lee,bob.lee@example.com,+919988776655,TechCorp,DevOps Engineer,,Mumbai

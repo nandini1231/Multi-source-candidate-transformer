@@ -1,0 +1,146 @@
+{
+  "summary": {
+    "total": 5,
+    "active": 5,
+    "manual_review": 0,
+    "errors": 0
+  },
+  "candidates": [
+    {
+      "full_name": "Jane Doe",
+      "primary_email": "jane.doe@example.com",
+      "phone": "+919876543210",
+      "skills": null,
+      "location": {
+        "city": "Bangalore",
+        "region": "Karnataka",
+        "country": "IN"
+      },
+      "headline": "Software Engineer",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": "John Smith",
+      "primary_email": "john.smith@example.com",
+      "phone": "+14155552671",
+      "skills": null,
+      "location": {
+        "city": "San Francisco",
+        "region": "CA",
+        "country": "US"
+      },
+      "headline": "Senior Data Scientist",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": "Alice Johnson",
+      "primary_email": "alice.j@example.com",
+      "phone": null,
+      "skills": null,
+      "location": {
+        "city": null,
+        "region": null,
+        "country": null
+      },
+      "headline": "Product Manager",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.4333,
+      "status": "active"
+    },
+    {
+      "full_name": "Bob Lee",
+      "primary_email": "bob.lee@example.com",
+      "phone": "+919988776655",
+      "skills": null,
+      "location": {
+        "city": "Mumbai",
+        "region": null,
+        "country": null
+      },
+      "headline": "DevOps Engineer",
+      "experience": null,
+      "education": null,
+      "overall_confidence": 0.95,
+      "data_quality_score": 0.7,
+      "status": "active"
+    },
+    {
+      "full_name": null,
+      "primary_email": "nandinijeetkumar@gmail.com",
+      "phone": "+917347367310",
+      "skills": [
+        "Go",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Python",
+        "Expertise: Web Development",
+        "Tools",
+        "Raptor",
+        "VSCode",
+        "Jupyter Notebook",
+        "StarUML",
+        "React",
+        "Soft Skills: Communication",
+        "Teamwork",
+        "Problem",
+        "Solving",
+        "Leadership"
+      ],
+      "location": {
+        "city": null,
+        "region": null,
+        "country": null
+      },
+      "headline": null,
+      "experience": null,
+      "education": [
+        {
+          "institution": "National Institute of Technology, Delhi Delhi, India",
+          "degree": "Bachelor of Technology – Computer Science and Engineering; CGPA: 8.99",
+          "field": null,
+          "end_year": null,
+          "confidence": 0.7,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "institution": "2023 – 2027",
+          "degree": null,
+          "field": null,
+          "end_year": "2023",
+          "confidence": 0.7,
+          "sources": [
+            "resume"
+          ]
+        },
+        {
+          "institution": "2021 – 2023",
+          "degree": null,
+          "field": null,
+          "end_year": "2021",
+          "confidence": 0.7,
+          "sources": [
+            "resume"
+          ]
+        }
+      ],
+      "overall_confidence": 0.6125,
+      "data_quality_score": 0.5333,
+      "status": "active"
+    }
+  ]
+}

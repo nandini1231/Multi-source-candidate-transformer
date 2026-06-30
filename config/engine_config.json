@@ -1,0 +1,51 @@
+{
+  "source_priority": {
+    "recruiter_csv": 100,
+    "ats_json": 90,
+    "resume": 70
+  },
+  "confidence_weights": {
+    "recruiter_csv": 0.95,
+    "ats_json": 0.90,
+    "resume": 0.70
+  },
+  "extraction_certainty": {
+    "direct": 1.0,
+    "regex": 0.70,
+    "heuristic": 0.50
+  },
+  "severity_factors": {
+    "LOW": 1.0,
+    "MEDIUM": 0.85,
+    "HIGH": 0.40
+  },
+  "agreement_factors": {
+    "all_sources_agree": 1.0,
+    "single_source": 0.95,
+    "conflict_penalty": 0.80
+  },
+  "matching": {
+    "email_match_weight": 1.0,
+    "phone_match_weight": 0.9,
+    "name_company_match_weight": 0.5,
+    "merge_decision_threshold": 0.75,
+    "fuzzy_name_min_ratio": 85
+  },
+  "review": {
+    "auto_merge_max_high_severity_conflicts": 0,
+    "min_confidence_without_review": 0.60,
+    "flag_near_threshold_margin": 0.05
+  },
+  "quality_fields": {
+    "required": ["full_name", "emails", "phones"],
+    "important": ["skills", "experience", "education", "headline", "location"],
+    "required_weight": 0.5,
+    "important_weight": 0.5
+  },
+  "validation": {
+    "email_max_length": 254,
+    "phone_default_region": "IN",
+    "date_min_year": 1950,
+    "date_max_year": 2030
+  }
+}
